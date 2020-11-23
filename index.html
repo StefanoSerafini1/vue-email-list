@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>vue-email-list</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+  <body>
+
+    <div id="app">
+      <h1>LISTA MAIL from API</h1>
+      <div class="listaMails">
+        <h3 v-for="mail in emails">{{mail}}</h3>
+      </div>
+    </div>
+  <!-- link axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
